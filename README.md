@@ -1,4 +1,4 @@
-﻿# Appendix
+﻿# Comparative Analysis of Multi-Objective and Evolutionary Reinforcement Learning Algorithms in Electric Vehicle Charging Management - Extended Appendix
 ## Appendix: Simulation
 ### PV Power Curve
 ![](plots/pv.png)
