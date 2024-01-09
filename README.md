@@ -6,7 +6,7 @@
 *PV Power Curve: Hourly average power of the PV system over a recorded one-year period.*
 
 ## Appendix: Hyperparameter Optimization Results
-### MOEvoRL-NSGA-II
+### MOEvoRL-NSGA-II Optimal Hyperparameters
 
 | **Parameter**            | **Value**    |
 |--------------------------|--------------|
@@ -97,7 +97,7 @@
 *MOEvoRL-NSGA-II CS15-Med-AR-42: Best hyperparameter parameter configuration.*
 
 
-### MOEvoRL-SPEA2
+### MOEvoRL-SPEA2 Optimal Hyperparameters
 
 | **Parameter**            | **Value**    |
 |--------------------------|--------------|
@@ -187,7 +187,7 @@
 
 *MOEvoRL-SPEA2 CS15-Med-AR-42: Best hyperparameter parameter configuration.*
 
-### MOEvoRL-FF-NEAT
+### MOEvoRL-FF-NEAT Optimal Hyperparameters
 
 | **Parameter**                | **Value** |
 |------------------------------|-----------|
@@ -298,7 +298,7 @@
 *MOEvoRL-FF-NEAT CS15-Med-AR-42: Best hyperparameter parameter configuration.*
 
 
-### MOEvoRL-RNN-NEAT
+### MOEvoRL-RNN-NEAT Optimal Hyperparameters
 
 | **Parameter**                | **Value** |
 |------------------------------|-----------|
@@ -407,7 +407,7 @@
 
 *MOEvoRL-RNN-NEAT CS15-Med-AR-42: Best hyperparameter parameter configuration.*
 
-### MODDPG
+### MODDPG Optimal Hyperparameters
 | **Parameter**                   | **Value**             |
 |---------------------------------|-----------------------|
 | gamma                           | 0.99                  |
@@ -514,10 +514,108 @@
 
 *MODDPG CS15-Med-AR-42: Best hyperparameter parameter configuration.*
 
+## Appendix: Anaylsis of Charging Events
+### CS05 Charging Events
+![](plots/charging_events/scenario_0_distribution_med_42.png)
 
+*Arrival and Charging Patterns for CS05-Med-42*
+
+![](plots/charging_events/scenario_0_distribution_low_71.png)
+
+*Arrival and Charging Patterns for CS05-Low-71*
+
+![](plots/charging_events/scenario_0_distribution_med_71.png)
+
+*Arrival and Charging Patterns for CS05-Med-71*
+
+![](plots/charging_events/scenario_0_distribution_high_71.png)
+
+*Arrival and Charging Patterns for CS05-High-71*
+
+![](plots/charging_events/scenario_0_car_count_med_42.png)
+
+*EV Model Distribution in CS05-Med-42*
+
+![](plots/charging_events/scenario_0_car_count_low_71.png)
+
+*EV Model Distribution in CS05-Low-71*
+
+![](plots/charging_events/scenario_0_car_count_med_71.png)
+
+*EV Model Distribution in CS05-Med-71*
+
+![](plots/charging_events/scenario_0_car_count_high_71.png)
+
+*EV Model Distribution in CS05-High-71*
+
+### CS10 Charging Events
+![](plots/charging_events/scenario_1_distribution_med_42.png)
+
+*Arrival and Charging Patterns for CS10-Med-42*
+
+![](plots/charging_events/scenario_1_distribution_low_71.png)
+
+*Arrival and Charging Patterns for CS10-Low-71*
+
+![](plots/charging_events/scenario_1_distribution_med_71.png)
+
+*Arrival and Charging Patterns for CS10-Med-71*
+
+![](plots/charging_events/scenario_1_distribution_high_71.png)
+
+*Arrival and Charging Patterns for CS10-High-71*
+
+![](plots/charging_events/scenario_1_car_count_med_42.png)
+
+*EV Model Distribution in CS10-Med-42*
+
+![](plots/charging_events/scenario_1_car_count_low_71.png)
+
+*EV Model Distribution in CS10-Low-71*
+
+![](plots/charging_events/scenario_1_car_count_med_71.png)
+
+*EV Model Distribution in CS10-Med-71*
+
+![](plots/charging_events/scenario_1_car_count_high_71.png)
+
+*EV Model Distribution in CS10-High-71*
+
+### CS15 Charging Events
+![](plots/charging_events/scenario_2_distribution_med_42.png)
+
+*Arrival and Charging Patterns for CS15-Med-42*
+
+![](plots/charging_events/scenario_2_distribution_low_71.png)
+
+*Arrival and Charging Patterns for CS15-Low-71*
+
+![](plots/charging_events/scenario_2_distribution_med_71.png)
+
+*Arrival and Charging Patterns for CS15-Med-71*
+
+![](plots/charging_events/scenario_2_distribution_high_71.png)
+
+*Arrival and Charging Patterns for CS15-High-71*
+
+![](plots/charging_events/scenario_2_car_count_med_42.png)
+
+*EV Model Distribution in CS15-Med-42*
+
+![](plots/charging_events/scenario_2_car_count_low_71.png)
+
+*EV Model Distribution in CS15-Low-71*
+
+![](plots/charging_events/scenario_2_car_count_med_71.png)
+
+*EV Model Distribution in CS15-Med-71*
+
+![](plots/charging_events/scenario_2_car_count_high_71.png)
+
+*EV Model Distribution in CS15-High-71*
 
 ## Appendix: Comparative Analysis of Training Dynamics
-### CS05-Med-42 Performance
+### CS05-Med-42 Training Performance
 
 ![](plots/training/scenario_0a_r0_comparison.png)
 
@@ -546,7 +644,7 @@
 
 *Sparsity Comparison CS05-Med-42: Diagram provides a comparative analysis of the convergence behavior of five models in scenario CS05-Med-42, focusing on the Sparsity throughout the training episodes.*
 
-### CS05-Med-AR-42 Performance
+### CS05-Med-AR-42 Training Performance
 
 ![](plots/training/scenario_0b_r0_comparison.png)
 
@@ -571,7 +669,7 @@
 *Sparsity Comparison CS05-Med-AR-42: Diagram provides a comparative analysis of the convergence behavior of five models in scenario CS05-Med-AR-42, focusing on the Sparsity throughout the training episodes.*
 
 
-### CS10-Med-42 Performance
+### CS10-Med-42 Training Performance
 
 ![](plots/training/scenario_1a_r0_comparison.png)
 
@@ -600,7 +698,7 @@
 
 *Sparsity Comparison CS10-Med-42: Diagram provides a comparative analysis of the convergence behavior of five models in scenario CS10-Med-42, focusing on the Sparsity throughout the training episodes.*
 
-### CS10-Med-AR-42 Performance
+### CS10-Med-AR-42 Training Performance
 
 ![](plots/training/scenario_1b_r0_comparison.png)
 
@@ -624,7 +722,7 @@
 
 *Sparsity Comparison CS10-Med-AR-42: Diagram provides a comparative analysis of the convergence behavior of five models in scenario CS10-Med-AR-42, focusing on the Sparsity throughout the training episodes.*
 
-### CS15-Med-42 Performance
+### CS15-Med-42 Training Performance
 
 ![](plots/training/scenario_2a_r0_comparison.png)
 
@@ -653,7 +751,7 @@
 
 *Sparsity Comparison CS15-Med-42: Diagram provides a comparative analysis of the convergence behavior of five models in scenario CS15-Med-42, focusing on the Sparsity throughout the training episodes.*
 
-### CS15-Med-AR-42 Performance
+### CS15-Med-AR-42 Training Performance
 
 ![](plots/training/scenario_2b_r0_comparison.png)
 
