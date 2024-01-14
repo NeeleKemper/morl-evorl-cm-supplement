@@ -6,6 +6,12 @@
 *PV Power Curve: Hourly average power of the PV system over a recorded one-year period.*
 
 ## Appendix: Hyperparameter Optimization Results
+Specific parameters for all agents are held constant, while others are subject to optimization. 
+The values for these fixed parameters have been determined through previous manual random testing, ensuring a robust baseline for comparison. 
+For the Multi-Objective Evolutionary Reinforcement Learning(MOEvoRL) models, parameters have been configured with a population size of 200 and a sigmoid activation function. 
+The Multi-Objective Deep Deterministic Policy Gradient (MODDPG) models have a predefined network architecture consisting of three layers, each with 1024 units, both for the Actor and Critic networks. 
+Adam optimizer is used for MODDPG optimization, with Relu as the activation function and Tanh for the output activation. 
+
 | Parameter           | Distribution | Min         | Max         |
 |---------------------|--------------|-------------|-------------|
 | sbx_prob            | uniform      | 0.6         | 0.95        |
@@ -472,108 +478,108 @@
 ## Appendix: Comparative Analysis of Training Dynamics
 ### CS05-Med-42 Training Performance
 
-![](plots/training/scenario_0a_r0_comparison.png)
+![](plots/train/CS05-Med-42/CS05-Med-42_r0_comparison.png)
 
 *R0 Comparison CS05-Med-42: Diagram provides a comparative analysis of the convergence behavior of five models in scenario CS05-Med-42, focusing on the reward R0 throughout the training episodes.*
 
 
-![](plots/training/scenario_0a_r1_comparison.png)
+![](plots/train/CS05-Med-42/CS05-Med-42_r1_comparison.png)
 
 *R1 Comparison CS05-Med-42: Diagram provides a comparative analysis of the convergence behavior of five models in scenario CS05-Med-42, focusing on the reward R1 throughout the training episodes.*
 
 
-![](plots/training/scenario_0a_r2_comparison.png)
+![](plots/train/CS05-Med-42/CS05-Med-42_r2_comparison.png)
 
 *R2 Comparison CS05-Med-42: Diagram provides a comparative analysis of the convergence behavior of five models in scenario CS05-Med-42, focusing on the reward R2 throughout the training episodes.*
 
 
-![](plots/training/scenario_0a_success_rate_comparison.png)
+![](plots/train/CS05-Med-42/CS05-Med-42_success_rate_comparison.png)
 
 *Success Rate Comparison CS05-Med-42: Diagram provides a comparative analysis of the convergence behavior of five models in scenario CS05-Med-42, focusing on the Success Rate throughout the training episodes.*
 
-![](plots/training/scenario_0a_hypervolume_comparison.png)
+![](plots/train/CS05-Med-42/CS05-Med-42_hypervolume_comparison.png)
 
 *Hypervolume Comparison CS05-Med-42: Diagram provides a comparative analysis of the convergence behavior of five models in scenario CS05-Med-42, focusing on the HV throughout the training episodes.*
 
-![](plots/training/scenario_0a_sparsity_comparison.png)
+![](plots/train/CS05-Med-42/CS05-Med-42_sparsity_comparison.png)
 
 *Sparsity Comparison CS05-Med-42: Diagram provides a comparative analysis of the convergence behavior of five models in scenario CS05-Med-42, focusing on the Sparsity throughout the training episodes.*
 
 ### CS05-Med-AR-42 Training Performance
 
-![](plots/training/scenario_0b_r0_comparison.png)
+![](plots/train/CS05-Med-AR-42/CS05-Med-AR-42_r0_comparison.png)
 
 *R0 Comparison CS05-Med-AR-42: Diagram provides a comparative analysis of the convergence behavior of five models in scenario CS05-Med-AR-42, focusing on the reward R0 throughout the training episodes.*
 
 
-![](plots/training/scenario_0b_r1_comparison.png)
+![](plots/train/CS05-Med-AR-42/CS05-Med-AR-42_r1_comparison.png)
 
 *R1 Comparison CS05-Med-AR-42: Diagram provides a comparative analysis of the convergence behavior of five models in scenario CS05-Med-AR-42, focusing on the reward R1 throughout the training episodes.*
 
 
-![](plots/training/scenario_0b_r2_comparison.png)
+![](plots/train/CS05-Med-AR-42/CS05-Med-AR-42_r2_comparison.png)
 
 *R2 Comparison CS05-Med-AR-42: Diagram provides a comparative analysis of the convergence behavior of five models in scenario CS05-Med-AR-42, focusing on the reward R2 throughout the training episodes.*
 
-![](plots/training/scenario_0b_hypervolume_comparison.png)
+![](plots/train/CS05-Med-AR-42/CS05-Med-AR-42_hypervolume_comparison.png)
 
 *Hypervolume Comparison CS05-Med-AR-42: Diagram provides a comparative analysis of the convergence behavior of five models in scenario CS05-Med-AR-42, focusing on the HV throughout the training episodes.*
 
-![](plots/training/scenario_0b_sparsity_comparison.png)
+![](plots/train/CS05-Med-AR-42/CS05-Med-AR-42_sparsity_comparison.png)
 
 *Sparsity Comparison CS05-Med-AR-42: Diagram provides a comparative analysis of the convergence behavior of five models in scenario CS05-Med-AR-42, focusing on the Sparsity throughout the training episodes.*
 
 
 ### CS10-Med-42 Training Performance
 
-![](plots/training/scenario_1a_r0_comparison.png)
+![](plots/train/CS10-Med-42/CS10-Med-42_r0_comparison.png)
 
 *R0 Comparison CS10-Med-42: Diagram provides a comparative analysis of the convergence behavior of five models in scenario CS10-Med-42, focusing on the reward R0 throughout the training episodes.*
 
 
-![](plots/training/scenario_1a_r1_comparison.png)
+![](plots/train/CS10-Med-42/CS10-Med-42_r1_comparison.png)
 
 *R1 Comparison CS10-Med-42: Diagram provides a comparative analysis of the convergence behavior of five models in scenario CS10-Med-42, focusing on the reward R1 throughout the training episodes.*
 
 
-![](plots/training/scenario_1a_r2_comparison.png)
+![](plots/train/CS10-Med-42/CS10-Med-42_r2_comparison.png)
 
 *R2 Comparison CS10-Med-42: Diagram provides a comparative analysis of the convergence behavior of five models in scenario CS10-Med-42, focusing on the reward R2 throughout the training episodes.*
 
 
-![](plots/training/scenario_1a_success_rate_comparison.png)
+![](plots/train/CS10-Med-42/CS10-Med-42_success_rate_comparison.png)
 
 *Success Rate Comparison CS10-Med-42: Diagram provides a comparative analysis of the convergence behavior of five models in scenario CS10-Med-42, focusing on the Success Rate throughout the training episodes.*
 
-![](plots/training/scenario_1a_hypervolume_comparison.png)
+![](plots/train/CS10-Med-42/CS10-Med-42_hypervolume_comparison.png)
 
 *Hypervolume Comparison CS10-Med-42: Diagram provides a comparative analysis of the convergence behavior of five models in scenario CS10-Med-42, focusing on the HV throughout the training episodes.*
 
-![](plots/training/scenario_1a_sparsity_comparison.png)
+![](plots/train/CS10-Med-42/CS10-Med-42_sparsity_comparison.png)
 
 *Sparsity Comparison CS10-Med-42: Diagram provides a comparative analysis of the convergence behavior of five models in scenario CS10-Med-42, focusing on the Sparsity throughout the training episodes.*
 
 ### CS10-Med-AR-42 Training Performance
 
-![](plots/training/scenario_1b_r0_comparison.png)
+![](plots/train/CS10-Med-AR-42/CS10-Med-AR-42_r0_comparison.png)
 
 *R0 Comparison CS10-Med-AR-42: Diagram provides a comparative analysis of the convergence behavior of five models in scenario CS10-Med-AR-42, focusing on the reward R0 throughout the training episodes.*
 
 
-![](plots/training/scenario_1b_r1_comparison.png)
+![](plots/train/CS10-Med-AR-42/CS10-Med-AR-42_r1_comparison.png)
 
 *R1 Comparison CS10-Med-AR-42: Diagram provides a comparative analysis of the convergence behavior of five models in scenario CS10-Med-AR-42, focusing on the reward R1 throughout the training episodes.*
 
 
-![](plots/training/scenario_1b_r2_comparison.png)
+![](plots/train/CS10-Med-AR-42/CS10-Med-AR-42_r2_comparison.png)
 
 *R2 Comparison CS10-Med-AR-42: Diagram provides a comparative analysis of the convergence behavior of five models in scenario CS10-Med-AR-42, focusing on the reward R2 throughout the training episodes.*
 
-![](plots/training/scenario_1b_hypervolume_comparison.png)
+![](plots/train/CS10-Med-AR-42/CS10-Med-AR-42_hypervolume_comparison.png)
 
 *Hypervolume Comparison CS10-Med-AR-42: Diagram provides a comparative analysis of the convergence behavior of five models in scenario CS10-Med-AR-42, focusing on the HV throughout the training episodes.*
 
-![](plots/training/scenario_1b_sparsity_comparison.png)
+![](plots/train/CS10-Med-AR-42/CS10-Med-AR-42_sparsity_comparison.png)
 
 *Sparsity Comparison CS10-Med-AR-42: Diagram provides a comparative analysis of the convergence behavior of five models in scenario CS10-Med-AR-42, focusing on the Sparsity throughout the training episodes.*
 
