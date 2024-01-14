@@ -6,6 +6,55 @@
 *PV Power Curve: Hourly average power of the PV system over a recorded one-year period.*
 
 ## Appendix: Hyperparameter Optimization Results
+| Parameter           | Distribution | Min         | Max         |
+|---------------------|--------------|-------------|-------------|
+| sbx_prob            | uniform      | 0.6         | 0.95        |
+| mut_prob            | uniform      | 0.1         | 0.3         |
+| sbx_eta             | int_uniform  | 3           | 30          |
+| mut_eta             | int_uniform  | 3           | 30          |
+| net_arch            | categorical  | [32, 32], [32, 32, 32], [32, 32, 32, 32] | - |
+| batch_size          | categorical  | 8, 16, 32   | -           |
+| env_iterations      | categorical  | 2, 5, 10    | -           |
+| pop_size            | fixed        | 200         | -           |
+| activation_function | fixed        | sigmoid     | -           |
+
+*MOEvoRL-NSGA-II and MOEvoRL-SPEA2 Hyperparameter Search Space: The hyperparameter search space for the MOEvoRL-NSGA-II and MOEvoRL-SPEA2 agents.*
+
+| Parameter                  | Distribution | Min   | Max   |
+|----------------------------|--------------|-------|-------|
+| conn_add_prob              | uniform      | 0.6   | 0.9   |
+| conn_delete_prob           | uniform      | 0.1   | 0.4   |
+| node_add_prob              | uniform      | 0.6   | 0.9   |
+| node_delete_prob           | uniform      | 0.1   | 0.4   |
+| survival_threshold         | uniform      | 0.1   | 0.3   |
+| aggregation_mutate_rate    | uniform      | 0.1   | 0.3   |
+| weight_mutate_rate         | uniform      | 0.6   | 0.9   |
+| bias_mutate_rate           | uniform      | 0.6   | 0.9   |
+| batch_size                 | categorical  | 8, 16, 32 | -    |
+| env_iterations             | categorical  | 2, 5, 10  | -    |
+| pop_size                   | fixed        | 200       | -    |
+| activation_function        | fixed        | sigmoid   | -    |
+
+
+*MOEvoRL-FF-NEAT and MOEvoRL-RNN-NEAT Hyperparameter Search Space: The hyperparameter search space for the MOEvoRL-FF-NEAT agents.*
+
+| Parameter                    | Distribution | Min                   | Max                  |
+|------------------------------|--------------|-----------------------|----------------------|
+| gamma                        | uniform      | 0.95                  | 0.9999               |
+| tau                          | uniform      | 0                     | 0.1                  |
+| per_alpha                    | uniform      | 0.1                   | 1.0                  |
+| learning_rate                | uniform      | \(1 \times 10^{-5}\)  | \(1 \times 10^{-4}\) |
+| learning_starts              | int_uniform  | 1000                  | 10000                |
+| policy_frequency             | int_uniform  | 1                     | 20                   |
+| buffer_size                  | int_uniform  | \(1 \times 10^5\)     | \(2 \times 10^6\)    |
+| batch_size                   | categorical  | 128, 256, 512         | -                    |
+| net_arch                     | fixed        | [1024, 1024, 1024]    | -                    |
+| activation_function          | fixed        | relu                  | -                    |
+| output_activation_function   | fixed        | tanh                  | -                    |
+| optimizer                    | fixed        | adam                  | -                    |
+
+*MOODPG Hyperparameter Search Space: The hyperparameter search space for the MODDPG agents*
+
 ### MOEvoRL-NSGA-II Optimal Hyperparameters
 
 | **Parameter**            | **Value**    |
@@ -354,68 +403,68 @@
 
 ## Appendix: Anaylsis of Charging Events
 ### CS05 Charging Events
-![](plots/charging_events/scenario_0_distribution_med_42.png)
+![](plots/charging_events/scenario_CS05_distribution_med_42.png)
 
 *Arrival and Charging Patterns for CS05-Med-42*
 
-![](plots/charging_events/scenario_0_distribution_low_71.png)
+![](plots/charging_events/scenario_CS05_distribution_low_71.png)
 
 *Arrival and Charging Patterns for CS05-Low-71*
 
-![](plots/charging_events/scenario_0_distribution_med_71.png)
+![](plots/charging_events/scenario_CS05_distribution_med_71.png)
 
 *Arrival and Charging Patterns for CS05-Med-71*
 
-![](plots/charging_events/scenario_0_distribution_high_71.png)
+![](plots/charging_events/scenario_CS05_distribution_high_71.png)
 
 *Arrival and Charging Patterns for CS05-High-71*
 
-![](plots/charging_events/scenario_0_car_count_med_42.png)
+![](plots/charging_events/scenario_CS05_car_count_med_42.png)
 
 *EV Model Distribution in CS05-Med-42*
 
-![](plots/charging_events/scenario_0_car_count_low_71.png)
+![](plots/charging_events/scenario_CS05_car_count_low_71.png)
 
 *EV Model Distribution in CS05-Low-71*
 
-![](plots/charging_events/scenario_0_car_count_med_71.png)
+![](plots/charging_events/scenario_CS05_car_count_med_71.png)
 
 *EV Model Distribution in CS05-Med-71*
 
-![](plots/charging_events/scenario_0_car_count_high_71.png)
+![](plots/charging_events/scenario_CS05_car_count_high_71.png)
 
 *EV Model Distribution in CS05-High-71*
 
 ### CS10 Charging Events
-![](plots/charging_events/scenario_1_distribution_med_42.png)
+![](plots/charging_events/scenario_CS10_distribution_med_42.png)
 
 *Arrival and Charging Patterns for CS10-Med-42*
 
-![](plots/charging_events/scenario_1_distribution_low_71.png)
+![](plots/charging_events/scenario_CS10_distribution_low_71.png)
 
 *Arrival and Charging Patterns for CS10-Low-71*
 
-![](plots/charging_events/scenario_1_distribution_med_71.png)
+![](plots/charging_events/scenario_CS10_distribution_med_71.png)
 
 *Arrival and Charging Patterns for CS10-Med-71*
 
-![](plots/charging_events/scenario_1_distribution_high_71.png)
+![](plots/charging_events/scenario_CS10_distribution_high_71.png)
 
 *Arrival and Charging Patterns for CS10-High-71*
 
-![](plots/charging_events/scenario_1_car_count_med_42.png)
+![](plots/charging_events/scenario_CS10_car_count_med_42.png)
 
 *EV Model Distribution in CS10-Med-42*
 
-![](plots/charging_events/scenario_1_car_count_low_71.png)
+![](plots/charging_events/scenario_CS10_car_count_low_71.png)
 
 *EV Model Distribution in CS10-Low-71*
 
-![](plots/charging_events/scenario_1_car_count_med_71.png)
+![](plots/charging_events/scenario_CS10_car_count_med_71.png)
 
 *EV Model Distribution in CS10-Med-71*
 
-![](plots/charging_events/scenario_1_car_count_high_71.png)
+![](plots/charging_events/scenario_CS10_car_count_high_71.png)
 
 *EV Model Distribution in CS10-High-71*
 
