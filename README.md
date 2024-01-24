@@ -861,45 +861,45 @@ Adam optimizer is used for MODDPG optimization, with Relu as the activation func
 *Failure Analysis CS05-Low-71 MODDPG: Comprehensive failure analysis of the MODDPG algorithm in CS05-Low-71.*
 
 ### CS05-Med-71 Failure Analysis
-![](plots/failures/CS05-Low-71/CS05-Low-71_MOEvoRL-NSGA-II_failure_categories.png)
+![](plots/failures/CS05-Med-71/CS05-Med-71_MOEvoRL-NSGA-II_failure_categories.png)
 
-*Failure Classification CS05-Low-71 MOEvoRL-NSGA-II: Bar chart depicting the distribution of the three failure categories Phase Imbalance L1-L2, L1-L3, L2-L3 and Connection Node Overload for the MOEvoRL-NSGA-II algorithm in CS05-Low-71.*
+*Failure Classification CS05-Med-71 MOEvoRL-NSGA-II: Bar chart depicting the distribution of the three failure categories Phase Imbalance L1-L2, L1-L3, L2-L3 and Connection Node Overload for the MOEvoRL-NSGA-II algorithm in CS05-Med-71.*
 
-![](plots/failures/CS05-Low-71/CS05-Low-71_MOEvoRL-NSGA-II_failure_analysis.png)
+![](plots/failures/CS05-Med-71/CS05-Med-71_MOEvoRL-NSGA-II_failure_analysis.png)
 
-*Failure Analysis CS05-Low-71 MOEvoRL-NSGA-II: Comprehensive failure analysis of the MOEvoRL-NSGA-II algorithm in CS05-Low-71.*
+*Failure Analysis CS05-Med-71 MOEvoRL-NSGA-II: Comprehensive failure analysis of the MOEvoRL-NSGA-II algorithm in CS05-Med-71.*
 
-![](plots/failures/CS05-Low-71/CS05-Low-71_MOEvoRL-SPEA2_failure_categories.png)
+![](plots/failures/CS05-Med-71/CS05-Med-71_MOEvoRL-SPEA2_failure_categories.png)
 
-*Failure Classification CS05-Low-71 MOEvoRL-SPEA2: Bar chart depicting the distribution of the three failure categories Phase Imbalance L1-L2, L1-L3, L2-L3 and Connection Node Overload for the MOEvoRL-SPEA2 algorithm in CS05-Low-71.*
+*Failure Classification CS05-Med-71 MOEvoRL-SPEA2: Bar chart depicting the distribution of the three failure categories Phase Imbalance L1-L2, L1-L3, L2-L3 and Connection Node Overload for the MOEvoRL-SPEA2 algorithm in CS05-Med-71.*
 
-![](plots/failures/CS05-Low-71/CS05-Low-71_MOEvoRL-SPEA2_failure_analysis.png)
+![](plots/failures/CS05-Med-71/CS05-Med-71_MOEvoRL-SPEA2_failure_analysis.png)
 
-*Failure Analysis CS05-Low-71 MOEvoRL-SPEA2: Comprehensive failure analysis of the MOEvoRL-SPEA2 algorithm in CS05-Low-71.*
+*Failure Analysis CS05-Med-71 MOEvoRL-SPEA2: Comprehensive failure analysis of the MOEvoRL-SPEA2 algorithm in CS05-Med-71.*
 
-![](plots/failures/CS05-Low-71/CS05-Low-71_MOEvoRL-FF-NEAT_failure_categories.png)
+![](plots/failures/CS05-Med-71/CS05-Med-71_MOEvoRL-FF-NEAT_failure_categories.png)
 
-*Failure Classification CS05-Low-71 MOEvoRL-FF-NEAT: Bar chart depicting the distribution of the three failure categories Phase Imbalance L1-L2, L1-L3, L2-L3 and Connection Node Overload for the MOEvoRL-FF-NEAT algorithm in CS05-Low-71.*
+*Failure Classification CS05-Med-71 MOEvoRL-FF-NEAT: Bar chart depicting the distribution of the three failure categories Phase Imbalance L1-L2, L1-L3, L2-L3 and Connection Node Overload for the MOEvoRL-FF-NEAT algorithm in CS05-Med-71.*
 
-![](plots/failures/CS05-Low-71/CS05-Low-71_MOEvoRL-FF-NEAT_failure_analysis.png)
+![](plots/failures/CS05-Med-71/CS05-Med-71_MOEvoRL-FF-NEAT_failure_analysis.png)
 
-*Failure Analysis CS05-Low-71 MOEvoRL-FF-NEAT: Comprehensive failure analysis of the MOEvoRL-FF-NEAT algorithm in CS05-Low-71.*
+*Failure Analysis CS05-Med-71 MOEvoRL-FF-NEAT: Comprehensive failure analysis of the MOEvoRL-FF-NEAT algorithm in CS05-Med-71.*
 
-![](plots/failures/CS05-Low-71/CS05-Low-71_MOEvoRL-RNN-NEAT_failure_categories.png)
+![](plots/failures/CS05-Med-71/CS05-Med-71_MOEvoRL-RNN-NEAT_failure_categories.png)
 
-*Failure Classification CS05-Low-71 MOEvoRL-RNN-NEAT: Bar chart depicting the distribution of the three failure categories Phase Imbalance L1-L2, L1-L3, L2-L3 and Connection Node Overload for the MOEvoRL-RNN-NEAT algorithm in CS05-Low-71.*
+*Failure Classification CS05-Med-71 MOEvoRL-RNN-NEAT: Bar chart depicting the distribution of the three failure categories Phase Imbalance L1-L2, L1-L3, L2-L3 and Connection Node Overload for the MOEvoRL-RNN-NEAT algorithm in CS05-Med-71.*
 
-![](plots/failures/CS05-Low-71/CS05-Low-71_MOEvoRL-FF-NEAT_failure_analysis.png)
+![](plots/failures/CS05-Med-71/CS05-Med-71_MOEvoRL-FF-NEAT_failure_analysis.png)
 
-*Failure Analysis CS05-Low-71 MOEvoRL-RNN-NEAT: Comprehensive failure analysis of the MOEvoRL-RNN-NEAT algorithm in CS05-Low-71.*
+*Failure Analysis CS05-Med-71 MOEvoRL-RNN-NEAT: Comprehensive failure analysis of the MOEvoRL-RNN-NEAT algorithm in CS05-Med-71.*
 
-![](plots/failures/CS05-Low-71/CS05-Low-71_MODDPG_failure_categories.png)
+![](plots/failures/CS05-Med-71/CS05-Med-71_MODDPG_failure_categories.png)
 
-*Failure Classification CS05-Low-71 MODDPG: Bar chart depicting the distribution of the three failure categories Phase Imbalance L1-L2, L1-L3, L2-L3 and Connection Node Overload for the MODDPG algorithm in CS05-Low-71.*
+*Failure Classification CS05-Med-71 MODDPG: Bar chart depicting the distribution of the three failure categories Phase Imbalance L1-L2, L1-L3, L2-L3 and Connection Node Overload for the MODDPG algorithm in CS05-Med-71.*
 
-![](plots/failures/CS05-Low-71/CS05-Low-71_MODDPG_failure_analysis.png)
+![](plots/failures/CS05-Med-71/CS05-Med-71_MODDPG_failure_analysis.png)
 
-*Failure Analysis CS05-Low-71 MODDPG: Comprehensive failure analysis of the MODDPG algorithm in CS05-Low-71.*
+*Failure Analysis CS05-Med-71 MODDPG: Comprehensive failure analysis of the MODDPG algorithm in CS05-Med-71.*
 
 ### CS05-High-71 Failure Analysis
 ![](plots/failures/CS05-High-71/CS05-High-71_MOEvoRL-NSGA-II_failure_categories.png)
@@ -985,46 +985,45 @@ Adam optimizer is used for MODDPG optimization, with Relu as the activation func
 *Failure Analysis CS10-Low-71 MODDPG: Comprehensive failure analysis of the MODDPG algorithm in CS10-Low-71.*
 
 ### CS10-Med-71 Failure Analysis
-![](plots/failures/CS10-Low-71/CS10-Low-71_MOEvoRL-NSGA-II_failure_categories.png)
+![](plots/failures/CS10-Med-71/CS10-Med-71_MOEvoRL-NSGA-II_failure_categories.png)
 
-*Failure Classification CS10-Low-71 MOEvoRL-NSGA-II: Bar chart depicting the distribution of the three failure categories Phase Imbalance L1-L2, L1-L3, L2-L3 and Connection Node Overload for the MOEvoRL-NSGA-II algorithm in CS10-Low-71.*
+*Failure Classification CS10-Med-71 MOEvoRL-NSGA-II: Bar chart depicting the distribution of the three failure categories Phase Imbalance L1-L2, L1-L3, L2-L3 and Connection Node Overload for the MOEvoRL-NSGA-II algorithm in CS10-Med-71.*
 
-![](plots/failures/CS10-Low-71/CS10-Low-71_MOEvoRL-NSGA-II_failure_analysis.png)
+![](plots/failures/CS10-Med-71/CS10-Med-71_MOEvoRL-NSGA-II_failure_analysis.png)
 
-*Failure Analysis CS10-Low-71 MOEvoRL-NSGA-II: Comprehensive failure analysis of the MOEvoRL-NSGA-II algorithm in CS10-Low-71.*
+*Failure Analysis CS10-Med-71 MOEvoRL-NSGA-II: Comprehensive failure analysis of the MOEvoRL-NSGA-II algorithm in CS10-Med-71.*
 
-![](plots/failures/CS10-Low-71/CS10-Low-71_MOEvoRL-SPEA2_failure_categories.png)
+![](plots/failures/CS10-Med-71/CS10-Med-71_MOEvoRL-SPEA2_failure_categories.png)
 
-*Failure Classification CS10-Low-71 MOEvoRL-SPEA2: Bar chart depicting the distribution of the three failure categories Phase Imbalance L1-L2, L1-L3, L2-L3 and Connection Node Overload for the MOEvoRL-SPEA2 algorithm in CS10-Low-71.*
+*Failure Classification CS10-Med-71 MOEvoRL-SPEA2: Bar chart depicting the distribution of the three failure categories Phase Imbalance L1-L2, L1-L3, L2-L3 and Connection Node Overload for the MOEvoRL-SPEA2 algorithm in CS10-Med-71.*
 
-![](plots/failures/CS10-Low-71/CS10-Low-71_MOEvoRL-SPEA2_failure_analysis.png)
+![](plots/failures/CS10-Med-71/CS10-Med-71_MOEvoRL-SPEA2_failure_analysis.png)
 
-*Failure Analysis CS10-Low-71 MOEvoRL-SPEA2: Comprehensive failure analysis of the MOEvoRL-SPEA2 algorithm in CS10-Low-71.*
+*Failure Analysis CS10-Med-71 MOEvoRL-SPEA2: Comprehensive failure analysis of the MOEvoRL-SPEA2 algorithm in CS10-Med-71.*
 
-![](plots/failures/CS10-Low-71/CS10-Low-71_MOEvoRL-FF-NEAT_failure_categories.png)
+![](plots/failures/CS10-Med-71/CS10-Med-71_MOEvoRL-FF-NEAT_failure_categories.png)
 
-*Failure Classification CS10-Low-71 MOEvoRL-FF-NEAT: Bar chart depicting the distribution of the three failure categories Phase Imbalance L1-L2, L1-L3, L2-L3 and Connection Node Overload for the MOEvoRL-FF-NEAT algorithm in CS10-Low-71.*
+*Failure Classification CS10-Med-71 MOEvoRL-FF-NEAT: Bar chart depicting the distribution of the three failure categories Phase Imbalance L1-L2, L1-L3, L2-L3 and Connection Node Overload for the MOEvoRL-FF-NEAT algorithm in CS10-Med-71.*
 
-![](plots/failures/CS10-Low-71/CS10-Low-71_MOEvoRL-FF-NEAT_failure_analysis.png)
+![](plots/failures/CS10-Med-71/CS10-Med-71_MOEvoRL-FF-NEAT_failure_analysis.png)
 
-*Failure Analysis CS10-Low-71 MOEvoRL-FF-NEAT: Comprehensive failure analysis of the MOEvoRL-FF-NEAT algorithm in CS10-Low-71.*
+*Failure Analysis CS10-Med-71 MOEvoRL-FF-NEAT: Comprehensive failure analysis of the MOEvoRL-FF-NEAT algorithm in CS10-Med-71.*
 
-![](plots/failures/CS10-Low-71/CS10-Low-71_MOEvoRL-RNN-NEAT_failure_categories.png)
+![](plots/failures/CS10-Med-71/CS10-Med-71_MOEvoRL-RNN-NEAT_failure_categories.png)
 
-*Failure Classification CS10-Low-71 MOEvoRL-RNN-NEAT: Bar chart depicting the distribution of the three failure categories Phase Imbalance L1-L2, L1-L3, L2-L3 and Connection Node Overload for the MOEvoRL-RNN-NEAT algorithm in CS10-Low-71.*
+*Failure Classification CS10-Med-71 MOEvoRL-RNN-NEAT: Bar chart depicting the distribution of the three failure categories Phase Imbalance L1-L2, L1-L3, L2-L3 and Connection Node Overload for the MOEvoRL-RNN-NEAT algorithm in CS10-Med-71.*
 
-![](plots/failures/CS10-Low-71/CS10-Low-71_MOEvoRL-FF-NEAT_failure_analysis.png)
+![](plots/failures/CS10-Med-71/CS10-Med-71_MOEvoRL-FF-NEAT_failure_analysis.png)
 
-*Failure Analysis CS10-Low-71 MOEvoRL-RNN-NEAT: Comprehensive failure analysis of the MOEvoRL-RNN-NEAT algorithm in CS10-Low-71.*
+*Failure Analysis CS10-Med-71 MOEvoRL-RNN-NEAT: Comprehensive failure analysis of the MOEvoRL-RNN-NEAT algorithm in CS10-Med-71.*
 
-![](plots/failures/CS10-Low-71/CS10-Low-71_MODDPG_failure_categories.png)
+![](plots/failures/CS10-Med-71/CS10-Med-71_MODDPG_failure_categories.png)
 
-*Failure Classification CS10-Low-71 MODDPG: Bar chart depicting the distribution of the three failure categories Phase Imbalance L1-L2, L1-L3, L2-L3 and Connection Node Overload for the MODDPG algorithm in CS10-Low-71.*
+*Failure Classification CS10-Med-71 MODDPG: Bar chart depicting the distribution of the three failure categories Phase Imbalance L1-L2, L1-L3, L2-L3 and Connection Node Overload for the MODDPG algorithm in CS10-Med-71.*
 
-![](plots/failures/CS10-Low-71/CS10-Low-71_MODDPG_failure_analysis.png)
+![](plots/failures/CS10-Med-71/CS10-Med-71_MODDPG_failure_analysis.png)
 
-*Failure Analysis CS10-Low-71 MODDPG: Comprehensive failure analysis of the MODDPG algorithm in CS10-Low-71.*
-
+*Failure Analysis CS10-Med-71 MODDPG: Comprehensive failure analysis of the MODDPG algorithm in CS10-Med-71.*
 ### CS10-High-71 Failure Analysis
 ![](plots/failures/CS10-High-71/CS10-High-71_MOEvoRL-NSGA-II_failure_categories.png)
 
@@ -1109,45 +1108,45 @@ Adam optimizer is used for MODDPG optimization, with Relu as the activation func
 *Failure Analysis CS15-Low-71 MODDPG: Comprehensive failure analysis of the MODDPG algorithm in CS15-Low-71.*
 
 ### CS15-Med-71 Failure Analysis
-![](plots/failures/CS15-Low-71/CS15-Low-71_MOEvoRL-NSGA-II_failure_categories.png)
+![](plots/failures/CS15-Med-71/CS15-Med-71_MOEvoRL-NSGA-II_failure_categories.png)
 
-*Failure Classification CS15-Low-71 MOEvoRL-NSGA-II: Bar chart depicting the distribution of the three failure categories Phase Imbalance L1-L2, L1-L3, L2-L3 and Connection Node Overload for the MOEvoRL-NSGA-II algorithm in CS15-Low-71.*
+*Failure Classification CS15-Med-71 MOEvoRL-NSGA-II: Bar chart depicting the distribution of the three failure categories Phase Imbalance L1-L2, L1-L3, L2-L3 and Connection Node Overload for the MOEvoRL-NSGA-II algorithm in CS15-Med-71.*
 
-![](plots/failures/CS15-Low-71/CS15-Low-71_MOEvoRL-NSGA-II_failure_analysis.png)
+![](plots/failures/CS15-Med-71/CS15-Med-71_MOEvoRL-NSGA-II_failure_analysis.png)
 
-*Failure Analysis CS15-Low-71 MOEvoRL-NSGA-II: Comprehensive failure analysis of the MOEvoRL-NSGA-II algorithm in CS15-Low-71.*
+*Failure Analysis CS15-Med-71 MOEvoRL-NSGA-II: Comprehensive failure analysis of the MOEvoRL-NSGA-II algorithm in CS15-Med-71.*
 
-![](plots/failures/CS15-Low-71/CS15-Low-71_MOEvoRL-SPEA2_failure_categories.png)
+![](plots/failures/CS15-Med-71/CS15-Med-71_MOEvoRL-SPEA2_failure_categories.png)
 
-*Failure Classification CS15-Low-71 MOEvoRL-SPEA2: Bar chart depicting the distribution of the three failure categories Phase Imbalance L1-L2, L1-L3, L2-L3 and Connection Node Overload for the MOEvoRL-SPEA2 algorithm in CS15-Low-71.*
+*Failure Classification CS15-Med-71 MOEvoRL-SPEA2: Bar chart depicting the distribution of the three failure categories Phase Imbalance L1-L2, L1-L3, L2-L3 and Connection Node Overload for the MOEvoRL-SPEA2 algorithm in CS15-Med-71.*
 
-![](plots/failures/CS15-Low-71/CS15-Low-71_MOEvoRL-SPEA2_failure_analysis.png)
+![](plots/failures/CS15-Med-71/CS15-Med-71_MOEvoRL-SPEA2_failure_analysis.png)
 
-*Failure Analysis CS15-Low-71 MOEvoRL-SPEA2: Comprehensive failure analysis of the MOEvoRL-SPEA2 algorithm in CS15-Low-71.*
+*Failure Analysis CS15-Med-71 MOEvoRL-SPEA2: Comprehensive failure analysis of the MOEvoRL-SPEA2 algorithm in CS15-Med-71.*
 
-![](plots/failures/CS15-Low-71/CS15-Low-71_MOEvoRL-FF-NEAT_failure_categories.png)
+![](plots/failures/CS15-Med-71/CS15-Med-71_MOEvoRL-FF-NEAT_failure_categories.png)
 
-*Failure Classification CS15-Low-71 MOEvoRL-FF-NEAT: Bar chart depicting the distribution of the three failure categories Phase Imbalance L1-L2, L1-L3, L2-L3 and Connection Node Overload for the MOEvoRL-FF-NEAT algorithm in CS15-Low-71.*
+*Failure Classification CS15-Med-71 MOEvoRL-FF-NEAT: Bar chart depicting the distribution of the three failure categories Phase Imbalance L1-L2, L1-L3, L2-L3 and Connection Node Overload for the MOEvoRL-FF-NEAT algorithm in CS15-Med-71.*
 
-![](plots/failures/CS15-Low-71/CS15-Low-71_MOEvoRL-FF-NEAT_failure_analysis.png)
+![](plots/failures/CS15-Med-71/CS15-Med-71_MOEvoRL-FF-NEAT_failure_analysis.png)
 
-*Failure Analysis CS15-Low-71 MOEvoRL-FF-NEAT: Comprehensive failure analysis of the MOEvoRL-FF-NEAT algorithm in CS15-Low-71.*
+*Failure Analysis CS15-Med-71 MOEvoRL-FF-NEAT: Comprehensive failure analysis of the MOEvoRL-FF-NEAT algorithm in CS15-Med-71.*
 
-![](plots/failures/CS15-Low-71/CS15-Low-71_MOEvoRL-RNN-NEAT_failure_categories.png)
+![](plots/failures/CS15-Med-71/CS15-Med-71_MOEvoRL-RNN-NEAT_failure_categories.png)
 
-*Failure Classification CS15-Low-71 MOEvoRL-RNN-NEAT: Bar chart depicting the distribution of the three failure categories Phase Imbalance L1-L2, L1-L3, L2-L3 and Connection Node Overload for the MOEvoRL-RNN-NEAT algorithm in CS15-Low-71.*
+*Failure Classification CS15-Med-71 MOEvoRL-RNN-NEAT: Bar chart depicting the distribution of the three failure categories Phase Imbalance L1-L2, L1-L3, L2-L3 and Connection Node Overload for the MOEvoRL-RNN-NEAT algorithm in CS15-Med-71.*
 
-![](plots/failures/CS15-Low-71/CS15-Low-71_MOEvoRL-FF-NEAT_failure_analysis.png)
+![](plots/failures/CS15-Med-71/CS15-Med-71_MOEvoRL-FF-NEAT_failure_analysis.png)
 
-*Failure Analysis CS15-Low-71 MOEvoRL-RNN-NEAT: Comprehensive failure analysis of the MOEvoRL-RNN-NEAT algorithm in CS15-Low-71.*
+*Failure Analysis CS15-Med-71 MOEvoRL-RNN-NEAT: Comprehensive failure analysis of the MOEvoRL-RNN-NEAT algorithm in CS15-Med-71.*
 
-![](plots/failures/CS15-Low-71/CS15-Low-71_MODDPG_failure_categories.png)
+![](plots/failures/CS15-Med-71/CS15-Med-71_MODDPG_failure_categories.png)
 
-*Failure Classification CS15-Low-71 MODDPG: Bar chart depicting the distribution of the three failure categories Phase Imbalance L1-L2, L1-L3, L2-L3 and Connection Node Overload for the MODDPG algorithm in CS15-Low-71.*
+*Failure Classification CS15-Med-71 MODDPG: Bar chart depicting the distribution of the three failure categories Phase Imbalance L1-L2, L1-L3, L2-L3 and Connection Node Overload for the MODDPG algorithm in CS15-Med-71.*
 
-![](plots/failures/CS15-Low-71/CS15-Low-71_MODDPG_failure_analysis.png)
+![](plots/failures/CS15-Med-71/CS15-Med-71_MODDPG_failure_analysis.png)
 
-*Failure Analysis CS15-Low-71 MODDPG: Comprehensive failure analysis of the MODDPG algorithm in CS15-Low-71.*
+*Failure Analysis CS15-Med-71 MODDPG: Comprehensive failure analysis of the MODDPG algorithm in CS15-Med-71.*
 
 ### CS15-High-71 Failure Analysis
 ![](plots/failures/CS15-High-71/CS15-High-71_MOEvoRL-NSGA-II_failure_categories.png)
