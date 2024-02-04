@@ -1193,4 +1193,28 @@ Adam optimizer is used for MODDPG optimization, with Relu as the activation func
 
 ## Appendix: Violin Plots
 Due to the large number of violin plots, these are not inserted directly into the README file, but only linked. 
-* [CS05-Med-71]()
+
+### CSxx-Med-42 Violin Plots
+* [CS05-Med-42](https://github.com/NeeleKemper/morl-evorl-cm-supplement/tree/main/plots/violin_plots/CS05-Med-42)
+* [CS10-Med-42](https://github.com/NeeleKemper/morl-evorl-cm-supplement/tree/main/plots/violin_plots/CS10-Med-42)
+* [CS15-Med-42](https://github.com/NeeleKemper/morl-evorl-cm-supplement/tree/main/plots/violin_plots/CS15-Med-42)
+
+### CSxx-Med-AR-42 Violin Plots
+* [CS05-Med-AR-42](https://github.com/NeeleKemper/morl-evorl-cm-supplement/tree/main/plots/violin_plots/CS05-Med-AR-42)
+* [CS10-Med-AR-42](https://github.com/NeeleKemper/morl-evorl-cm-supplement/tree/main/plots/violin_plots/CS10-Med-AR-42)
+* [CS15-Med-AR-42](https://github.com/NeeleKemper/morl-evorl-cm-supplement/tree/main/plots/violin_plots/CS15-Med-AR-42)
+
+### CS05-Low/Med/High-71 Violin Plots
+* [CS05-Low-71](https://github.com/NeeleKemper/morl-evorl-cm-supplement/tree/main/plots/violin_plots/CS05-Low-71)
+* [CS05-Med-71](https://github.com/NeeleKemper/morl-evorl-cm-supplement/tree/main/plots/violin_plots/CS05-Med-71)
+* [CS05-High-71](https://github.com/NeeleKemper/morl-evorl-cm-supplement/tree/main/plots/violin_plots/CS05-High-71)
+
+### CS10-Low/Med/High-71 Violin Plots
+* [CS10-Low-71](https://github.com/NeeleKemper/morl-evorl-cm-supplement/tree/main/plots/violin_plots/CS10-Low-71)
+* [CS10-Med-71](https://github.com/NeeleKemper/morl-evorl-cm-supplement/tree/main/plots/violin_plots/CS10-Med-71)
+* [CS10-High-71](https://github.com/NeeleKemper/morl-evorl-cm-supplement/tree/main/plots/violin_plots/CS10-High-71)
+
+### CS15-Low/Med/High-71 Violin Plots
+* [CS15-Low-71](https://github.com/NeeleKemper/morl-evorl-cm-supplement/tree/main/plots/violin_plots/CS15-Low-71)
+* [CS15-Med-71](https://github.com/NeeleKemper/morl-evorl-cm-supplement/tree/main/plots/violin_plots/CS15-Med-71)
+* [CS15-High-71](https://github.com/NeeleKemper/morl-evorl-cm-supplement/tree/main/plots/violin_plots/CS15-High-71)
