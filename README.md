@@ -1218,3 +1218,17 @@ Due to the large number of violin plots, these are not inserted directly into th
 * [CS15-Low-71](https://github.com/NeeleKemper/morl-evorl-cm-supplement/tree/main/plots/violin_plots/CS15-Low-71)
 * [CS15-Med-71](https://github.com/NeeleKemper/morl-evorl-cm-supplement/tree/main/plots/violin_plots/CS15-Med-71)
 * [CS15-High-71](https://github.com/NeeleKemper/morl-evorl-cm-supplement/tree/main/plots/violin_plots/CS15-High-71)
+
+
+# Citing the Project
+```
+@article{kemper2025comparative,
+  title={A comparative study of multi-objective and neuroevolutionary-based reinforcement learning algorithms for optimizing electric vehicle charging and load management},
+  author={Kemper, Neele and Heider, Michael and Pietruschka, Dirk and H{\"a}hner, J{\"o}rg},
+  journal={Applied Energy},
+  volume={391},
+  pages={125890},
+  year={2025},
+  publisher={Elsevier}
+}
+```
